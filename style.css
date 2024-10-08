@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+/* header, footer */
+header, footer {
+    background-color: #9a98a3;
+    padding: 1em;
+    text-align: center;
+}
+/* header */
+.judul-gede{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f7f7f7;
+}
+
+.sub-judul{
+    font-size: 18px;
+    font-weight: 400;
+    color: #f7f7f7;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+article {
+    flex-basis: 70%;
+    padding: 2em;
+}
+
+article .asset{
+    justify-content: center;
+    display: flex;
+    background-color: #9a98a3;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.449)
+}
+.asset img{
+    width: clamp(100px, 100%);
+}
+
+article .why, article .what{
+    background-color: #9a98a3;
+    padding: 1em;
+    margin-bottom: 1em;
+    color: #f7f7f7;
+}
+
+aside {
+    flex-basis: 30%;
+    padding: 2em;
+    background-color: #9a98a3;
+    border-radius: 24px;
+    margin: 10px;
+    color: #f7f7f7;
+}
+aside img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
