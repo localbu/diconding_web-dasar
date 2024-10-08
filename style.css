@@ -4,6 +4,20 @@ body {
     height: 100vh;
     margin: 0;
 }
+
+/* hedader */
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header nav a{
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
 /* header, footer */
 header, footer {
     background-color: #9a98a3;
